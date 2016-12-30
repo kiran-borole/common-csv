@@ -430,7 +430,7 @@ public class CSVPrinterTest {
 
     @Test
     public void testRandom() throws Exception {
-        final int iter = 50;
+        final int iter = 10000;
         doRandom(CSVFormat.DEFAULT, iter);
         doRandom(CSVFormat.EXCEL, iter);
         doRandom(CSVFormat.MYSQL, iter);
